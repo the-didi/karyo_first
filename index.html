@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karyo_Fist</title>
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.17/paper-full.min.js"></script>
+    <script src="https://docs.opencv.org/4.5.2/opencv.js" defer></script>
+    <canvas id="paperCanvas"></canvas>
+    <script type="importmap">
+      {
+        "imports": {
+          "data": "./data.js",
+          "lil-gui": "https://cdn.jsdelivr.net/npm/lil-gui@0.19/+esm",
+          "add": "./tools/add.js",
+          "remove": "./tools/remove.js",
+          "pointer": "./tools/pointer.js",
+          "cross": "./tools/cross.js",
+          "split": "./tools/split.js",
+          "link": "./tools/link.js",
+          "utils": "./utils.js"
+        }
+      }
+    </script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
