@@ -1,5 +1,7 @@
 # Karyo_First
 
+在线体验地址: https://the-didi.github.io/karyo_first/
+
 世界上最好的核型分析工具的先行验证仓库，基于opencv.js+paperjs，具有如下功能:
 - 染色体交叉分割：能够根据鼠标指示一键分割交叉染色体。
 - 染色体粘连合并：能够根据鼠标提示将两个染色体合并成一个染色体。
